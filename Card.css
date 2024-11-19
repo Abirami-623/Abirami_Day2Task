@@ -1,0 +1,36 @@
+.card {
+    background: white;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('car-1.jpg');
+}
+
+.car-2 {
+    background-image: url('car-2.jpg');
+}
+
+.car-3 {
+    background-image: url('car-3.jpg');
+}

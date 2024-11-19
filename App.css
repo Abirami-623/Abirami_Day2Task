@@ -1,0 +1,12 @@
+body {
+    background: rgb(27, 27, 27);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
